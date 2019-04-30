@@ -1,0 +1,19 @@
+{
+  "name": "minutes-web",
+  "version": "1.0.0",
+  "description": "Landing page for Minutes app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Eivind Lindbråten",
+  "license": "ISC",
+  "dependencies": {
+    "@sanity/client": "^0.140.11",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
