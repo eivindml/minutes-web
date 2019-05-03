@@ -6,12 +6,14 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "now-buld": "next build"
   },
   "author": "Eivind Lindbråten",
   "license": "ISC",
   "dependencies": {
     "@sanity/client": "^0.140.11",
+    "isomorphic-unfetch": "^3.0.0",
     "next": "^8.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"

@@ -1,11 +1,12 @@
 import Button from '../components/Button'
+import Icon from '../components/Icon'
 
-const Hero = ({ name }) => {
+const Hero = ({ newsletterRef }) => {
   return (
     <>
       <div className='hero'>
         <div className='hero__illustration'>
-          <img src='/static/minutes-macos-icon.png' />
+          <Icon />
         </div>
         <h2 className='hero__title'>
           Enjoyable time tracking. It can be done.
@@ -14,7 +15,7 @@ const Hero = ({ name }) => {
           We are creating a better native time tracking solution for macOS. This will be really cool. Should have about three lines of text here. Comming soon …
         </p>
         <div className='hero__action'>
-          <Button />
+          <Button onClick={() => { window.scrollTo(0, newsletterRef.current.offsetTop) }} />
         </div>
       </div>
       <style jsx>{`
@@ -25,7 +26,7 @@ const Hero = ({ name }) => {
         }
 
         .hero__illustration {
-          width: 120px;
+          width: 128px;
           margin-bottom: 13px;
         }
         .hero__illustration img {
@@ -33,7 +34,7 @@ const Hero = ({ name }) => {
         }
         @media (min-width: 800px) {
           .hero__illustration {
-            width: 160px;
+            width: 256px;
           }
         }
 

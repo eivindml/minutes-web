@@ -1,11 +1,41 @@
+import { useState } from 'react'
+import fetch from 'isomorphic-unfetch'
+
 const Newsletter = () => {
+  const [email, setEmail] = useState()
+
+  const handleEmailChange = event => {
+    const email = event.target.value
+    setEmail(email)
+  }
+
+  const handleSubmit = event => {
+    event.preventDefault()
+
+    fetch('/api/email', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ email })
+    })
+      .then(r => r.text())
+      .then(data => console.log(data))
+  }
+
   return (
     <>
       <div className='newsletter'>
-        <form className='newsletter__form'>
+        <form
+          className='newsletter__form'
+          onSubmit={handleSubmit}
+        >
           <input
-            type='text'
+            type='email'
+            placeholder='Email address'
+            aria-label='E-mail'
             className='newsletter__input'
+            onChange={handleEmailChange}
           />
           <input
             type='submit'
@@ -15,6 +45,11 @@ const Newsletter = () => {
         </form>
       </div>
       <style jsx>{`
+        .newsletter {
+          width: 100%;
+          max-width: 700px;
+        }
+
         .newsletter__form {
           display: flex;
         }
@@ -31,6 +66,7 @@ const Newsletter = () => {
           flex: 1;
         }
 
+        /* TODO: Use regular Button component, so we don't duplicate? */
         .newsletter__button {
           background-color: var(--positive-color);
           color: white;

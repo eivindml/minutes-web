@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "name": "minutes",
+  "alias": "minutes.staging.madebymist.com",
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "regions": [ "bru" ],
+  "builds": [
+    { "src": "www/static/*", "use": "@now/static" },
+    { "src": "www/next.config.js", "use": "@now/next" },
+    { "src": "studio/static/*", "use": "@now/static" },
+    { "src": "backend/api/*.js", "use": "@now/node" },
+    { "src": "studio/package.json", "use": "@now/static-build" }
+  ],
+  "routes": [
+    { "src": "^/static/(.*)", "dest": "/www/static/$1" },
+    { "src": "^/studio/static/(.*)", "dest": "/studio/static/$1" },
+    { "src": "^/api/?(.*)", "dest": "/backend/api/index.js" },
+    { "src": "^/studio/favicon.ico", "dest": "/www/static/favicon.ico" },
+    { "src": "^/studio/?(.*)", "dest": "/studio/index.html" },
+    { "src": "^/?(.*)", "dest": "/www/$1" }
+  ]
+}

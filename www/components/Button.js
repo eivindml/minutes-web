@@ -1,7 +1,11 @@
-const Button = () => {
+// TODO: Not high enough contrast between white text and green background
+const Button = ({ onClick }) => {
   return (
     <>
-      <div className='button'>
+      <div
+        className='button'
+        onClick={onClick}
+      >
         <div className='button__title'>
           Notify me
         </div>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Bullet Icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Light-Mode" transform="translate(-408.000000, -1824.000000)">
+            <g id="Group-3" transform="translate(408.000000, 1818.000000)">
+                <g id="Bullet-Icon" transform="translate(0.000000, 6.000000)">
+                    <ellipse id="Oval" stroke-opacity="0.247077142" stroke="#000000" stroke-width="2" fill="#27CA41" cx="22.5" cy="22.5" rx="21.5" ry="21.0673077"></ellipse>
+                    <rect id="Rectangle" fill="#FFFFFF" x="21.1764706" y="10.3846154" width="2.64705882" height="24.2307692"></rect>
+                    <polygon id="Rectangle" fill="#FFFFFF" transform="translate(22.058824, 22.067308) rotate(-270.000000) translate(-22.058824, -22.067308) " points="20.7607466 9.71436652 23.3569005 9.71436652 23.3569005 34.4202489 20.7607466 34.4202489"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

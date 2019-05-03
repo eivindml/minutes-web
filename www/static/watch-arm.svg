@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Icon Copy 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-148.7%" y="-23.9%" width="397.4%" height="147.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14567854 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M1.39299284,0.912475052 C2.65942502,1.02475057 3.66254116,2.06967168 3.69949244,3.36416604 L8.63376856,176.224034 C15.5496469,179.108385 20.3754925,185.6362 20.3754925,193.227109 C20.3754925,200.462208 15.9914493,206.731539 9.59221793,209.800839 L10.4073085,238.355513 C10.4703425,240.563753 8.73130993,242.404984 6.5230704,242.468018 C6.48503564,242.469103 6.44698734,242.469646 6.40893709,242.469646 L0.496782495,242.469646 L1.39299284,0.912475052 Z" id="path-2"></path>
+    </defs>
+    <g id="Icon-Copy-7" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" filter="url(#filter-1)" transform="translate(524.802561, 342.553117)">
+            <path d="M19.4204855,1.00999288 C20.6869176,1.1222684 21.6900338,2.16718951 21.7269851,3.46168386 L26.6612612,176.321552 C33.5771396,179.205903 38.4029851,185.733718 38.4029851,193.324627 C38.4029851,200.559726 34.0189419,206.829056 27.6197106,209.898356 L28.4348011,238.453031 C28.4978352,240.66127 26.7588026,242.502501 24.550563,242.565536 C24.5125283,242.566621 24.47448,242.567164 24.4364297,242.567164 L18.5242751,242.567164 L19.4204855,1.00999288 Z" id="Combined-Shape" fill="#1F1F1F"></path>
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use id="Combined-Shape" fill="#595959" transform="translate(10.436137, 121.691061) scale(-1, 1) translate(-10.436137, -121.691061) " xlink:href="#path-2"></use>
+        </g>
+    </g>
+</svg>
