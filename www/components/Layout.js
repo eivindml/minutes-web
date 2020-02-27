@@ -5,7 +5,7 @@ const Layout = ({ children }) => {
     <>
       <Head>
         <title>Minutes</title>
-        <meta charset='utf-8' />
+        <meta charSet='utf-8' />
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
         <meta name='description' content='Minutes is a native macOS app for tracking your time.' />
       </Head>

@@ -690,6 +690,11 @@
     in-publish "^2.0.0"
     promise-props-recursive "^1.0.0"
 
+"@sanity/cli@^0.140.14":
+  version "0.140.16"
+  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-0.140.16.tgz#50e695979a097ca0277697a2cc831a1106f72314"
+  integrity sha512-zLrO86cAJLEbd0sHusg7tFvhKjmaoYTxSTH2hRooZtjTrGSKizFD0sFQRw1zM0AD3Iq29oYJFWT47aar48wicw==
+
 "@sanity/client@0.140.11":
   version "0.140.11"
   resolved "https://registry.npmjs.org/@sanity/client/-/client-0.140.11.tgz#505abc729db82e6d2eb935d7440a4fdaf751870d"
